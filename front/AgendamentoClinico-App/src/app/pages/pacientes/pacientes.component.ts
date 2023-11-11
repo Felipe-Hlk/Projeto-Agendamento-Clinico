@@ -58,7 +58,7 @@ export class PacientesComponent implements AfterViewInit {
 
   AddPaciente(): void {
     const dialogRef = this.dialog.open(CadastroPacientesComponent, {
-      width: '60%',
+      width: '40%',
       disableClose: true,
       data: { cadastroForm: this.cadastroForm }
       
