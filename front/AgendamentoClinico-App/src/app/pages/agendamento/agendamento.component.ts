@@ -9,7 +9,6 @@ import 'moment/locale/pt-br';
 import { Calendar } from '@fullcalendar/core';
 import bootstrap5Plugin from '@fullcalendar/bootstrap5';
 
-
 @Component({
   selector: 'app-root',
   templateUrl: './agendamento.component.html',
@@ -54,14 +53,14 @@ export class AgendamentoComponent implements OnInit {
     };
   }
 
-  // ngAfterViewInit() {
-  //   const calendar = new Calendar(this.fullcalendar.nativeElement, {
-  //     plugins: [ bootstrap5Plugin ],
-  //     themeSystem: 'bootstrap5'
-  //   });
+  ngAfterViewInit() {
+    const calendar = new Calendar(this.fullcalendar.nativeElement, {
+      plugins: [ bootstrap5Plugin ],
+      themeSystem: 'bootstrap5'
+    });
 
-  //   calendar.render();
-  // }
+    calendar.render();
+  }
 
   handleCalendarToggle() {
     this.calendarVisible = !this.calendarVisible;
