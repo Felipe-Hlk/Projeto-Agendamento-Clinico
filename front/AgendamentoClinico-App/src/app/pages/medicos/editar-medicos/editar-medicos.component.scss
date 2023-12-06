@@ -1,19 +1,19 @@
 .container-geral {
-    margin: 0 auto; 
+    margin: 0 auto;
     width: 100%;
     max-height: 76vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-  
+
     .fechar {
       position: absolute;
       top: 10px;
       right: 10px;
       color: #ee7c75; /* Cor do ícone */
     }
-  
+
     mat-card-content{
       margin: 0 auto;
       // margin-bottom: 20px;
@@ -22,12 +22,12 @@
     mat-card-title{
       margin-bottom: 10px;
     }
-  
+
     mat-form-field {
       display: flex;
       flex-direction: column;
     }
-  
+
     mat-card-title {
       margin: 0 auto;
       margin-top: 25px;
@@ -37,7 +37,7 @@
       font-size: 1.2rem;
       color: #326089;
     }
-  
+
     .mat-card {
       width: 100%;
       margin: 0 auto;
@@ -46,16 +46,16 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
-  
+
     .mat-form-field {
       width: 100%;
       margin: 8px 0;
     }
-  
+
     .form-cadastro-cpf{
       width: 42%;
     }
-  
+
     .form-cadastro-email{
       width: 55%;
     }
@@ -64,7 +64,7 @@
       width: 50%;
     }
     .form-cadastro-endereco{
-      width: 47%;
+      width: 52%;
     }
     .form-cadastro-celular{
       width: 48.4%;
@@ -76,20 +76,23 @@
     .form-cadastro-crm{
       width: 47% ;
     }
+    .form-cadastro-cidade{
+      width: 45% ;
+    }
 
 
-  
+
   }
   .botao-cadastro {
     background-color: #0e6a8e;
     color: #fff;
   }
-  
+
   .botao-cadastrar{
     background-color: #0e6a8e;
     color: #fff;
   }
-  
+
   .botao-sair {
     display: flex;
     justify-content: flex-end;
@@ -97,21 +100,21 @@
     margin-top: 16px;
     position: fixed;
   }
-  
+
   .button-container {
     display: flex;
     justify-content: center;
     margin-top: 15px;
     margin-bottom: 20px;
-  
+
   }
   .content-forms{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  
-  
+
+
   button {
     margin-left: 8px;
     text-transform: uppercase;
