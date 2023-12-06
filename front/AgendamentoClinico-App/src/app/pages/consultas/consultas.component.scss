@@ -1,0 +1,68 @@
+.table-medicos {
+  min-width: 290px;
+  margin: 0 auto;
+  width: 98%;
+
+  mat-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mat-row:not(.mat-header-row) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .botao-adicionar{
+    background-color: #21db00;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+
+  }
+
+  .delete-icon {
+    color: rgb(255, 72, 0);
+  }
+
+  .edit-icon {
+    color: #0e6a8e;
+
+  }
+
+  .botao-usario{
+    background-color: #0e6a8e;
+
+  }
+}
+
+.paginator {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: 98%;
+}
+
+.form-pesquisar {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.form-pesquisar:hover {
+  color: #1c2931;
+}
+
+input {
+  color: #1c2931;
+}
+
