@@ -24,7 +24,7 @@ export class ToolbarComponent {
 
   AdicionarUsuario(): void {
     const dialogRef = this.dialog.open(CadastroFuncionarioComponent, {
-      width: '46%',
+      width: '70%',
       disableClose: true,
       data: { cadastroForm: this.cadastroForm }
     });
@@ -37,7 +37,7 @@ export class ToolbarComponent {
 
   EditarUsuario(): void {
     const dialogRef = this.dialog.open(EditarFuncionarioComponent, {
-      width: '46%',
+      width: '70%',
       disableClose: true,
       data: { cadastroForm: this.cadastroForm }
     });

@@ -6,7 +6,7 @@
     <mat-icon aria-label="Fechar">close</mat-icon>
   </button>
   <mat-card-content>
-    <mat-card-title>Editar Fucionario</mat-card-title>
+    <h2>Editar Fucionario</h2>
     <form [formGroup]="cadastroForm" (ngSubmit)="onSubmit()">
       <p>
         <mat-form-field appearance="fill">
@@ -31,7 +31,7 @@
           <mat-form-field appearance="fill">
             <mat-label> Senha </mat-label>
             <input matInput placeholder="Digite a senha" formControlName="senha" required />
-            <mat-hint>Digite a senha</mat-hint>
+
           </mat-form-field>
         </p>
 
@@ -39,7 +39,7 @@
           <mat-form-field appearance="fill">
             <mat-label> Confirmar Senha </mat-label>
             <input matInput placeholder="Confirme a senha" formControlName="confirmarSenha" required />
-            <mat-hint>Confirme a senha</mat-hint>
+
           </mat-form-field>
         </p>
       </div>
