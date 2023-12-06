@@ -1,7 +1,8 @@
 <div class="content mat-elevation-z4">
-  <app-toolbar-title
-    title="Agendamentos"
-    icon="fa-solid fa-calendar-days">
+  <app-toolbar-title title="Agendamentos" icon="fa-solid fa-calendar-days">
+    <!-- <button mat-icon-button>
+      <mat-icon>Agendamentos</mat-icon>
+    </button> -->
   </app-toolbar-title>
 
   <div class="calendar">
@@ -17,10 +18,14 @@
                   text-decoration: none;
                   color: #c7c7c7;
                 }
+
+
+
+
                 ">
           <ng-template #eventContent let-arg>
-            <b>{{ arg.timeText }}</b>
-            <i>{{ arg.event.title }}</i>
+             <b>{{ arg.timeText }}</b>
+             <i>{{ arg.event.title }}</i>
           </ng-template>
        </full-calendar>
       </div>
